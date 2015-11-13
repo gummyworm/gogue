@@ -11,3 +11,6 @@ type Attacker interface {
 type Quaffer interface {
 	Quaff(interface{})
 }
+type Seer interface {
+	See(interface{}) [][]int32
+}
